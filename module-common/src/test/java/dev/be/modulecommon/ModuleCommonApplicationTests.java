@@ -1,13 +1,13 @@
-package com.practice.gitprac;
+package dev.be.modulecommon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GitPracApplicationTests {
+class ModuleCommonApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
