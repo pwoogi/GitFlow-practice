@@ -12,14 +12,20 @@ public class DemoController {
     private final DemoService demoService;
 
     @GetMapping("/save")
-    private String save(){
+    public String save(){
         return demoService.save();
 
     }
 
     @GetMapping("/find")
-    private String find(){
+    public String find(){
         return demoService.find();
+
+    }
+
+    @GetMapping("/exception")
+    public String exception(){
+        return demoService.exception();
 
     }
 }
