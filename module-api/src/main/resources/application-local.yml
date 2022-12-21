@@ -1,10 +1,12 @@
+profile-name : local
+
 spring:
   main:
     allow-bean-definition-overriding: true
   datasource:
     url: jdbc:mysql://localhost:3306/practice
     username: root
-    password: gusdnr89ok!M
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
